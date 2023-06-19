@@ -1,0 +1,4340 @@
+[
+  {
+    "id": "ee_braless",
+    "title": "",
+    "description": "[actor_0:full]は、彼女の数々の要求と個人的な好みのために、管理するのに苦労することがあります。ブラジャーをつけることは自然な生活と相容れないという彼女の考えもそのひとつです。\n\nRecently, a well known sports wear company has expressed interest in having her model their new line, including a live promotion event, for [yen]200000. However, this would include a number of loose fitting tops. [actor_0] is excited about the opportunity, but unwilling to compromise on the bra situation.\n\nYou could let her do it anyway and risk a scandal. Another option would be to offer to send [actor_1:full] instead, though that probably wouldn't sit well with [actor_0].\n\nWhat will you do?",
+    "image": "ee_braless_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "High_maintenance"
+          }
+        ]
+      },
+      {
+        "name": "@actor_1@",
+        "type": "idol",
+        "conditions": []
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Let [actor_0] go ahead",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "200000"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "influence",
+            "formula": "+ 1"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param sexy",
+            "formula": "5"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_C_T",
+            "text": "did you see [actor_0] in this month's issue?"
+          },
+          {
+            "poster": "F_HC_YA",
+            "text": "Incredible! I wish I looked as good as her when I'm exercising!"
+          }
+        ],
+        "result": {
+          "description": "You allow [actor_0:full] to host the promotion event. You attend the event, cross your fingers, and hope everything goes smoothly.\n\nThoughout the event, [actor_0]'s breasts are barely concealed by her loose fitting exercise shirt. There are a few close calls, but she manages to refrain from flashing the crowd.\n\nAfter the event, the photoshoot for the magazine ads also transpires without incident. [actor_0] is happy with the results and appreciates you trusting her.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Let [actor_0] go ahead",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "50000"
+          },
+          {
+            "target": "resource",
+            "parameter": "scandalPoints",
+            "formula": "1"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "influence",
+            "formula": "+ 1"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_A",
+            "text": "not sure if anyone was at the event earlier, but wow!"
+          },
+          {
+            "poster": "M_HC_YA",
+            "text": "i was there. things were definitely bouncing... (. Y .)"
+          },
+          {
+            "poster": "F_C_YA",
+            "text": "I gotta say, [actor_0] being \"all natural\" is an understatement"
+          }
+        ],
+        "result": {
+          "description": "You allow [actor_0:full] to host the promotion event. You attend the event, cross your fingers, and hope everything goes smoothly.\n\nThings start off well, but half way through the event, [actor_0] is bouncing and cheering, and her breasts slip free, flashing the whole crowd. She recovers quickly, and the host diffuses the tension with a joke.\n\nAfter the event, the company notifies you that they can't go forward with having [actor_0] model their summer collection. Thankfully, they'll still pay [yen]50000 for the event.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Send [actor_1] instead",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "200000"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "influence",
+            "formula": "- 1"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_YA",
+            "text": "I thought [actor_0] was supposed to run that event?"
+          },
+          {
+            "poster": "F_HC_T",
+            "text": "u didn't hear? they wouldn't let her do it"
+          },
+          {
+            "poster": "F_C_YA",
+            "text": "Yeah, internal politics I heard."
+          }
+        ],
+        "result": {
+          "description": "You decide it's too risky to allow [actor_0:full] to perform at the event. You reach out to the sports wear company, and offer to have [actor_1:full] work with them instead. The company accepts, and [actor_1] gives a stellar performance.\n\n[actor_0], however, is hurt that you were unwilling to trust her. Hopefully you haven't started a rivalry between her and [actor_1]...",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Reject the offer",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "+ 1"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You're unwilling to risk sending [actor_0:full], and you're certain sending another girl would hurt her feelings. Rather than damage your relationship with her, you reach out to the sports wear company and graciously decline the offer.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_peep",
+    "title": "",
+    "description": "A few nights ago, [actor_0:full] was feeling especially lazy after her evening run and didn't bother to close the blinds before changing out of her clothes. Considering her popularity, it's not surprising that an opportunist from a questionable local outlet snapped photos of her through the window.\n\nThankfully, an associate of yours caught wind of the news and alerted you privately. After reaching out to the outlet, they're claiming the photos are journalistic gold and that they can't possibly refuse to print them. Unless you're willing to reimburse them [yen]1 million. It's a slimy move, but you don't have a lot of options.\n\nYou've made [actor_0] aware of the situation, and she's begging you to pay them, promising she'll never be careless again.",
+    "image": "ee_peep_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "fans",
+            "formula": "> 1000"
+          },
+          {
+            "parameter": "trait",
+            "formula": "Lazy"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Pay the [yen]1 million",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "-1000000"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "influence",
+            "formula": "+ 3"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "The outlet accepts your bribe, and thankfully the pictures of [actor_0:full] never see the light of day. She's eternally grateful to you for covering for her.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Pay the [yen]1 million",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "-1000000"
+          },
+          {
+            "target": "resource",
+            "parameter": "scandalPoints",
+            "formula": "1"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-50"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "C=-2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "C=-2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_YA",
+            "text": "dayum! dats a nice lookin' body on [actor_0], bro!"
+          },
+          {
+            "poster": "F_C_T",
+            "text": "u should be ashamed of urself, girl!"
+          }
+        ],
+        "result": {
+          "description": "Despite paying the money, the nude photos of [actor_0:full] appear on the internet a short time later, shared by an anonymous account. You call the outlet, furious, but they claim it wasn't them and that someone must have stolen the pictures. Regardless, there's nothing you can do about it now.\n\n[actor_0] is hysterical as she grapples with the scandal. Some of her fans are supportive, but others are judgemental.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Let [actor_0] learn the hard way",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-50"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "C=-4"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "C=-4"
+          },
+          {
+            "target": "resource",
+            "parameter": "scandalPoints",
+            "formula": "1"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_YA",
+            "text": "i hope next time they get a shot from the back! i wanna see [actor_0]'s lovely caboose!"
+          },
+          {
+            "poster": "F_C_YA",
+            "text": "i can't believe [actor_0] gets naked with the window open! who does that?"
+          }
+        ],
+        "result": {
+          "description": "You tell [actor_0:full] that the studio doesn't have the money to pay that kind of ransom for a few photos. She begs you to reconsider, but you insist that it's not within your means to help her.\n\nThe next day, the photos are released on the outlet's website. [actor_0] is hysterical as she grapples with the scandal. Some of her fans are supportive, but others are judgemental.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Fire [actor_0]",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "fire",
+            "formula": "false"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You tell [actor_0:full] that the last thing [groupname] needs is a public scandal. She begs you to reconsider, but you remain firm. She will need to live with the consequences of her actions, even if they were unintended.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_upskirt",
+    "title": "",
+    "description": "[actor_0:full] is known for her clumsiness around the studio and at her school. It's often endearing, but sometimes it gets her into trouble. Last week she stumbled in the hallway at school and landed in a compromising position. Unfortunately it was right in front of the boys physical education class.\n\nFor the past week, the boys at her school have been teasing her relentlessly. They've started calling her the Panty Queen, and some are rude enough to intentionally try to trip her again. Of course when she confonts them, they insist it was an accident.\n\nUnsure what to do, she's asked for your advice.",
+    "image": "ee_upskirt_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Clumsy"
+          },
+          {
+            "parameter": "age",
+            "formula": "< 18"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Mental resilience will benefit her idol career",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "+ 1"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param cool",
+            "formula": "+3"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You spend some time talking through the issue with [actor_0:full]. You point out that the discomfort she's going through now is definitely unpleasant, but it will pay off in the future.\n\nSeeing this as a opportunity to overcome an obstacle rather than being a victim helps empower her, and [actor_0] feels more able to deal with the situation. She thanks you for taking the time to talk with her.\n\nOver the next week, her newfound tenacity earns her respect among the other students and the bullying attempts graually subside.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Encourage her to share her experience on social media",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "F=3"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "T=2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param funny",
+            "formula": "+2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_C_T",
+            "text": "Ur so brave [actor_0:firstname]!! Just ignore those jerks and live ur life! <3"
+          }
+        ],
+        "result": {
+          "description": "[actor_0:full] follows your advice and posts a series of videos online talking about her struggle. Her honesty and transparency strike a cord with the fanbase. And, to her surprise, the fans rally around her with encouraging messages.  With the supportive messages and the boost in popularity, [actor_0] is able to see the upside in an otherwise difficult situation.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Give her a few days off to deal with this personal issue",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "+20"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param physicalStamina",
+            "formula": "+40"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "After a couple days off, [actor_0:full] returns feeling refreshed and better able to deal with the stress at school. Her time off seems to have helped her find a wellspring of inner strength.",
+          "delay": 48
+        }
+      },
+      {
+        "text": "Give her a few days off to deal with this personal issue",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-40"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "After a couple days off, [actor_0:full] returns feeling even more stressed out than before. She says she wasn't able to stop ruminating about the issue, and it's affected her sleep and her appetite.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_onlyfans",
+    "title": "",
+    "description": "Some obsessive fans have discovered that [actor_0:full]'s mother has an OnlyFans account with nude photos. The news has spread through the fanbase rapidly, and there are a lot of conflicting voices and opinions.\n\nSome fans are supportive of both [actor_0] and her mother. Others are critical of her mother but still supportive of [actor_0]. And still others condemn them both.\n\n[actor_0] is understandably distraught and unsure how to handle the growing drama. She's asking for your advice on how to respond.",
+    "image": "ee_onlyfans_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Late_bloomer"
+          },
+          {
+            "parameter": "fans",
+            "formula": "> 500"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Stand up for her mother's freedom of expression",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "HC=3"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "YA=2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param smart",
+            "formula": "3"
+          },
+          {
+            "target": "resource",
+            "parameter": "scandalPoints",
+            "formula": "1"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_T",
+            "text": "she should be free to live her best life!"
+          },
+          {
+            "poster": "F_C_A",
+            "text": "This is inexcusable! Think about what kind of example [actor_0] is setting for our kids!!"
+          }
+        ],
+        "result": {
+          "description": "[actor_0:full] voices her support for her mother's right to freely express herself. She also calls out the unfair standards that women face regarding their sexuality and calls for change. Many of the younger fans side with her, though some of the older fans remain put off.  Unsurprisingly, some of the more hardcore fans want to know when [actor_0] is going to start an OnlyFans account of her own or if she will guest star on her mother's account.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Condemn her mother's behavior",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param sexy",
+            "formula": "-3"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "HC=-2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "C=2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "influence",
+            "formula": "- 1"
+          },
+          {
+            "target": "resource",
+            "parameter": "scandalPoints",
+            "formula": "2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_T",
+            "text": "y u so hard on ur mom, yo? she just bein free about her business"
+          },
+          {
+            "poster": "F_C_A",
+            "text": "Poor girl. Imagine growing up in a house like that."
+          }
+        ],
+        "result": {
+          "description": "[actor_0:full] publicly condemns her mother's lewd behavior and promises her fans that she will never engage in similar behavior. This fuels the drama futher, with conservative fans still unappeased, and more open minded fans disappointed. Eventually the story dies down, though [actor_0]'s relationship difficulties with her mother still linger.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Do nothing",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-20"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_C_T",
+            "text": "when is [actor_0] going to tell us whats going on?"
+          }
+        ],
+        "result": {
+          "description": "At your instruction, [actor_0:full] keeps quiet despite heavy influx of fan questions about her mother's OnlyFans account. Some of the fans are upset that she hasn't spoken out, and they say that she's holding back on them. You caution her to remain quiet, and eventually the drama dies down.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Do nothing",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "C=-5"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-40"
+          },
+          {
+            "target": "resource",
+            "parameter": "scandalPoints",
+            "formula": "2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_C_YA",
+            "text": "dude, you know [actor_0] is the one takin those pics. so nasty!"
+          }
+        ],
+        "result": {
+          "description": "At your instruction, [actor_0:full] keeps quiet despite heavy influx of fan questions about her mother's OnlyFans account. Unfortunately, the situation escalates when a rumor starts spreading that [actor_0] is the photographer for her mother's nude photos. The drama is exhausting for [actor_0], and though it eventually dies down, the unresolved nature of the issue has a lasting effect on public perception.",
+          "delay": 72
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_hacked_selfie",
+    "title": "",
+    "description": "In a huge data breach, thousands of cloud photo accounts were hacked. Unfortunately, [actor_0:full]'s account was among those hacked, and she had nude selfies saved in her account. The photos are now available on a number of disreputable websites, and there's no way to change that.\n\nMany of the hardcore fans are elated and want to know if she will do official nude photos. Yet, other fans are unhappy, saying that this has already spoiled her innocent look.\n\nHow will you decide to spin the publicity?",
+    "image": "ee_selfie_hacked_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Photogenic"
+          },
+          {
+            "parameter": "age",
+            "formula": "> 15"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Promise official nude photos in the future",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param sexy",
+            "formula": "+3"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param cute",
+            "formula": "-3"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "HC=3"
+          },
+          {
+            "target": "resource",
+            "parameter": "scandalPoints",
+            "formula": "2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_C_YA",
+            "text": "i can't believe [actor_0] is going to expose herself again! isn't once enough?"
+          },
+          {
+            "poster": "M_HC_YA",
+            "text": "how long until [actor_0]'s next batch of nudes?! <3"
+          }
+        ],
+        "result": {
+          "description": "[actor_0:full]'s announcement that she will consider nude photography in the future has its desired effect. Some fans are shocked, but many are thrilled by the news.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Express outrage at the invasion of privacy",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param cute",
+            "formula": "-2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param sexy",
+            "formula": "+2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "HC=1"
+          },
+          {
+            "target": "resource",
+            "parameter": "scandalPoints",
+            "formula": "1"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_C_A",
+            "text": "Call me crazy, but maybe you just shouldn't take nude selfies..."
+          }
+        ],
+        "result": {
+          "description": "[actor_0:full] joins the voices of others decrying the malicious invasion of their privacy. In the end, it's unclear if this has had any positive effect or if it merely drew more attention to her leaked photos.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Do nothing",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param cute",
+            "formula": "-1"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param sexy",
+            "formula": "+1"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_A",
+            "text": "[actor_0]'s beautiful body will be saved on my hard drive forever!!"
+          },
+          {
+            "poster": "F_C_T",
+            "text": "This is why we can't have nice things :("
+          }
+        ],
+        "result": {
+          "description": "With [actor_0:full] remaining quiet, her nude photos don't draw much attention outside the existing fan base. Most people seem focused on the higher profile actors and actresses that were involved.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_yuri_kiss",
+    "title": "",
+    "description": "[actor_0:full]'s strong feelings for her best friend at school were revealed today when, overcome with emotion, she couldn't resist leaning in and kissing the other girl who was caught off guard by the whole situation.\n\nOne of the other girls was making a selfie video, and the brief exchange between [actor_0] and her friend can be seen in the background.\n\nThe video is rapidly spreading online, and fans want to know if this means [actor_0] is coming out of the closet. She's feeling nervous about revealing aspects of her personal life for public scrutiny.\n\nHow will you respond?",
+    "image": "ee_yuri_kiss_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "preference",
+            "formula": "!straight"
+          },
+          {
+            "parameter": "age",
+            "formula": "< 19"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "[actor_0:full]'s private life is none of their business",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "C=2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_T",
+            "text": "Girls like [actor_0] need to be more freely represented! This is obviously corporate censorship!"
+          },
+          {
+            "poster": "M_C_YA",
+            "text": "yeah, but who wants their personal life oggled by a million random strangers?"
+          },
+          {
+            "poster": "F_C_T",
+            "text": "idk about you, but im just glad [actor_0] followed her heart <3"
+          }
+        ],
+        "result": {
+          "description": "You release a statement that the personal lives of the idols in [groupname] are private and, for the benefit of the idols, should not be subject to public scrutiny. Many fans are supportive, but some who felt represented by [actor_0:full] are disappointed.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Encourage [actor_0:full] to tell the truth",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "influence",
+            "formula": "- 1"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-30"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "F=4"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_YA",
+            "text": "We love you [actor_0]!! Be your best self!"
+          },
+          {
+            "poster": "F_HC_YA",
+            "text": "Seeing [actor_0] being brave gives me hope for my future >_<"
+          },
+          {
+            "poster": "F_C_T",
+            "text": "they would be such an amazing couple. hope they post pictures of their first date!"
+          }
+        ],
+        "result": {
+          "description": "At your prompting, [actor_0:full] agrees to a brief interview where she explains that she's not ashamed to be exploring and trying to discover her most authentic self.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Claim @actor_0@ tripped",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-10"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_YA",
+            "text": "She tripped? Yeah, OKAY. Give me a break!"
+          },
+          {
+            "poster": "F_C_T",
+            "text": "that's no trip, she was def kissing that other girl"
+          },
+          {
+            "poster": "F_HC_A",
+            "text": "Why are they being so cagey about a kiss? It's not a big deal."
+          }
+        ],
+        "result": {
+          "description": "You release a brief statement claiming that [actor_0:full] actually just tripped. You point out that it's easy to misinterpret what's happening in a few brief seconds of a low resolution video.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_nude_beach",
+    "title": "",
+    "description": "While abroad, [actor_0:full] visited a local beach. She had been under the impression that on European beaches swimsuits were optional, so she took off her top. Unfortunately, that was not true for this beach. While some families were amused, others were offended and reported her to the local authorities.\n\nThankfully, no photos of the incident have appeared online. However, the local government issued her a [yen]60000 fine, and if it isn't paid, she won't be allowed to return in the future.\n\nWhat will you do?",
+    "image": "ee_nude_beach_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Thick_Skin"
+          },
+          {
+            "parameter": "age",
+            "formula": "> 16"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Pay the [yen]60000 fine",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "-60000"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You agree to pay the fine and ask [actor_0:full] to be more careful next time as this kind of situation could affect her ability to perform abroad in the future.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Ask for a reduced fine",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "-30000"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You work with the local embassy to try and reduce the fine. Thankfully, with a little discussion, they agree to cut the fine in half.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Call out the foreign government on social media for being unwelcoming",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-20"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "C=1"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_C_YA",
+            "text": "Daaamn, I wish there were pics of that!"
+          },
+          {
+            "poster": "M_HC_A",
+            "text": "yeah, why are there no paparazzi when we need them most?"
+          }
+        ],
+        "result": {
+          "description": "You post a series of messages on social media criticizing the foreign government for being too aggressive in their treatment of [actor_0:full]. To your surprise, it works. They apologize publicly and agree to wave the fine. They also promise to work to improve relations with visiting tourists.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Ignore it",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-20"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You tell [actor_0:full] not to worry about. You'll grease some palms if it ever becomes an issue in the future. She seems uneasy about this but doesn't argue.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_porn",
+    "title": "",
+    "description": "[actor_0:full]'s mother caught her watching adult videos in her room late at night. She called the studio this morning claiming her daughter's involvement with [groupname] is corrupting her values. She wants you to immediately host an abstinence workshop for the entire group.\n\n[actor_0] is incredibly embarrassed by her mother's behavior. She begs you not to cave to her mothers demands for fear that it will turn the other idols against her.\n\nWhat will you do?",
+    "image": "ee_porn_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Secretive"
+          },
+          {
+            "parameter": "age",
+            "formula": "< 19"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Host the abstinence workshop",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-50"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You agree to let [actor_0:full]'s mother conduct a two day abstinence workshop for [groupname]. Most of the girls don't take it very seriously, and some are actively disruptive.\n\n[actor_0] is beside herself with embarrassment at the entire situation.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Invite her mother to talk with you privately",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "influence",
+            "formula": "+ 1"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You invite [actor_0:full]'s mother to stop by the office and discuss her concerns. She's surprsingly young, and she's worried that her daughter will end up pregnant at a young age like she did. You acknowledge her concern but ask her to consider how her emotional reaction is impacting her daughter. Surprisingly, she accepts your feedback and agrees to take a softer approach.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "This doesn't involve the studio",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-20"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "[actor_0:full]'s mother is furious and threatens to remove her daughter from [groupname] if her daughter demonstrates any further inappropriate behavior. ",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_cosplay",
+    "title": "",
+    "description": "[actor_0:full] is well know in the cosplay community for her elaborate costumes. Her perfectionism and attention to detail makes her work extremely impressive.\n\nFor her latest project, she polled her fans and agreed to design the most popular costume. The fan favorite cosplay turned out to be an especially revealing character outfit from a popular new anime. Not one to underdeliver, [actor_0] designed an immaculate costume.\n\nThe photos are definitely a departure from her typical style, and some fans are complaining that she's sexualizing her image. They want [groupname] to limit her future cosplays to tamer displays.\n\nHow will you respond?",
+    "image": "ee_cosplay_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Perfectionist"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Feature the new cosplay on the group's website",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "influence",
+            "formula": "+ 2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "HC=4"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "C=-1"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_A",
+            "text": "[actor_0] is finally getting the spotlight she deserves for all her hard work!"
+          },
+          {
+            "poster": "F_C_YA",
+            "text": "i guess if you call it hard work to take your clothes off"
+          },
+          {
+            "poster": "M_HC_T",
+            "text": "you're just saying that because you could never pull off an outfit like [actor_0]! she's so amazing!"
+          }
+        ],
+        "result": {
+          "description": "You boldly feature [actor_0:full]'s newest cosplay front and center on [groupname]'s website. A few fans are upset by this, but many more celebrate the move.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Have @actor_0@ joke about it",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "C=-4"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-40"
+          },
+          {
+            "target": "resource",
+            "parameter": "scandalPoints",
+            "formula": "1"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "HC=1"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_C_YA",
+            "text": "Did you see [actor_0]'s response? Sooo savage!"
+          },
+          {
+            "poster": "F_HC_A",
+            "text": "i don't think she meant for it to come out like that"
+          },
+          {
+            "poster": "F_C_T",
+            "text": "of course she did. she's used to manipulating fans for attention."
+          }
+        ],
+        "result": {
+          "description": "[actor_0:full] takes to social media and pokes fun at her detractors. She points out that it could be worse; she could be totally naked.\n\nUnfortunately, this prompts some of her more hardcore fans to start clamoring for nudes, which further provokes the already disgruntled casual fans.\n\n[actor_0] then attempts to explain that it's just a joke, but comes across as belittling. Eventually, she gives up on trying to repair the damage and just moves on.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Distance the the group from [actor_0:full]'s private life",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "- 2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "HC=2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-20"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You refuse to involve the studio with [actor_0:full]'s situation. She's hurt that you're unsupportive but accepts that her hobby isn't your responsibility.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_stream_snafu",
+    "title": "",
+    "description": "In her off time, [actor_0:full] likes to livestream herself eating differen foods as an extra opportunity to interact with her fans.\n\nUnfortunately, she forgot to turn off her webcam at the end of her planned streaming time. Not realizing she was still streaming, she got comfortable and started passionately masturbating. Thousands of fans had a close up view of her vigorously stroking and fingering herself to orgasm.\n\nShe eventually figured out what happened, and is beyond mortified. She's apologized profusely and begged for forgiveness, promising it will never happen again. But the damage is already done.\n\nWhat will you do?",
+    "image": "ee_stream_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "age",
+            "formula": "> 16"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "parameter": "streaming",
+        "formula": "streaming_no_restrictions",
+        "target": "policy"
+      }
+    ],
+    "effects": [],
+    "options": [
+      {
+        "text": "Tell her she can no longer stream",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "influence",
+            "formula": "- 2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "C=-3"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-50"
+          },
+          {
+            "target": "resource",
+            "parameter": "scandalPoints",
+            "formula": "2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_A",
+            "text": "No more streams?! Noooooo!"
+          },
+          {
+            "poster": "M_HC_YA",
+            "text": "at least we'll have the best stream ever to remember her by"
+          },
+          {
+            "poster": "F_C_YA",
+            "text": "I get why they did it, but it still sucks :("
+          }
+        ],
+        "result": {
+          "description": "[actor_0:full] accepts your requirement with glum resignation. Many of the fans are also disappointed. But you still believe it was the right move.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Encourage more \"accidents\"",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "scandalPoints",
+            "formula": "5"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "M=6"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You tell [actor_0:full] that all publicity is good publicity and that additional \"accidents\" wouldn't be a bad idea. She's shocked by the idea but says she'll think about it.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Tell her to stay offline for a few days",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "scandalPoints",
+            "formula": "3"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "M=2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-20"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_T",
+            "text": "come back [actor_0]! we miss you!"
+          },
+          {
+            "poster": "M_HC_T",
+            "text": "Yeah, every part of you ;)"
+          },
+          {
+            "poster": "F_C_T",
+            "text": "don't be gross!"
+          },
+          {
+            "poster": "M_C_YA",
+            "text": "hey, she put it all out there! and I mean put it ALL out there! XD"
+          }
+        ],
+        "result": {
+          "description": "[actor_0:full] agrees and cancels the rest of her weekly streams. Things eventually calm down and she resumes her streaming, though not without a lot of uncomfortable jokes and requests for a repeat event.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Fire her",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "fire",
+            "formula": "false"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_YA",
+            "text": "i can't believe they cut [actor_0]!"
+          },
+          {
+            "poster": "M_C_T",
+            "text": "for real. everyone makes mistakes... though this was a big one"
+          },
+          {
+            "poster": "F_C_YA",
+            "text": "I'm sorry, but she deserved it"
+          }
+        ],
+        "result": {
+          "description": "You tell her your hands are tied, and she'll have to leave. The group can't be liable for the negative publicity.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_lost_swimsuit",
+    "title": "",
+    "description": "While swimming at the beach, [actor_0:full] was knocked down by a huge wave and lost the bottom of her swimsuit. After fishing around for a minute, she recovered her bottoms and put them back on. The other girls had a good laugh about it, and a few of them posted the story on social media.\n\nIn an unexpected turn, a local comedy group posted a parody video of the event. In the video, a girl that looks a lot like @actor_0@ runs around in a panic trying to cover her naked butt. It wouldn't be so bad, except the girl playing [actor_0] looks enough like her that some fans think it's really her.\n\nIt's possible there may be damage to her reputation if you don't intervene.",
+    "image": "ee_swim_event1.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Asexual"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Insist the video be taken down",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "+ 1"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_YA",
+            "text": "Where did the @actor_0@ video go?"
+          },
+          {
+            "poster": "F_HC_YA",
+            "text": "It's gone. They killed it."
+          },
+          {
+            "poster": "M_C_T",
+            "text": "noooo, i missed it!"
+          }
+        ],
+        "result": {
+          "description": "You threaten to sue the comedy group for defamation, and they reluctantly agree to pull the video from their website.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Film a handshake even with @actor_0@ and her doppelganger",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "+ 2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "C=4"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_C_YA",
+            "text": "i can't believe it! there are two of them!"
+          },
+          {
+            "poster": "F_C_A",
+            "text": "Wow, they look exactly the same!"
+          },
+          {
+            "poster": "M_HC_YA",
+            "text": "i think @actor_0@ is a tiny bit taller. or wait, which one is she again? :o"
+          },
+          {
+            "poster": "M_HC_A",
+            "text": "Imagine if they did a music video together!"
+          }
+        ],
+        "result": {
+          "description": "The video of [actor_0:full] shaking hands with her double is a huge success. All the attention is shifted away from the embarassing content and onto the fact that the girls look so similar.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Suggest the girls wear one piece suits in the future",
+        "tooltip": "",
+        "effects": [],
+        "SNS": [
+          {
+            "poster": "F_C_YA",
+            "text": "maybe it really is her if the girls are being told to change their swimwear"
+          },
+          {
+            "poster": "M_C_T",
+            "text": "nooo, @actor_0@'s bikini is all i have to live for"
+          }
+        ],
+        "result": {
+          "description": "Most of the girls in [groupname] don't take you seriously. They feel like what happened to [actor_0:full] was a once in a lifetime event, and changing things now doesn't have any impact on what already happened.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Ignore it",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-40"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_T",
+            "text": "She wouldn't be this worked up if it wasn't really her!"
+          },
+          {
+            "poster": "F_HC_YA",
+            "text": "No way, that girl looks nothing like her! They just did her hair the same."
+          },
+          {
+            "poster": "M_C_YA",
+            "text": "whoever she is, she's got a nice butt XD"
+          }
+        ],
+        "result": {
+          "description": "You leave[actor_0:full] to deal with the parody video herself. She tries to prove that the girl in the video isn't her, but some fans take that as proof that it is indeed her. The lack of support causes her significant stress.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_sleep_naked",
+    "title": "",
+    "description": "After watching a questionable documentary, [actor_0:full] has been advocating for the health benefits of sleeping naked. She claims that it's helped improve her dance performance and given her more energy.\n\nSome parents of younger fans are unhappy with the example she's setting, and others are calling into question the scientific veracity of her claims. If she's not seen as a reliable source of information, it may damage her credibility for advertising gigs.\n\nWhat will you do?",
+    "image": "ee_sleep_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Complacent"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Make it clear her experience is subjective",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "group",
+            "parameter": "add_fans",
+            "formula": "HC=-1"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_YA",
+            "text": "What a lame way to shut down @actor_0@'s experience."
+          },
+          {
+            "poster": "F_HC_A",
+            "text": "Yeah, disappointing that they aren't being more supportive."
+          },
+          {
+            "poster": "F_C_YA",
+            "text": "she's just sharing her truth. whats the big deal?"
+          }
+        ],
+        "result": {
+          "description": "You release a brief statement indicating [actor_0]'s experience is specific to her and that [groupname] doesn't advocate for anyone changing their sleep habits based on her experience.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Host an interview with a sleep expert",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "C=-2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_YA",
+            "text": "who is this guy???"
+          },
+          {
+            "poster": "F_HC_A",
+            "text": "Yeah, what a boring interview."
+          },
+          {
+            "poster": "M_C_A",
+            "text": "there's gotta be something better to watch on a friday night"
+          }
+        ],
+        "result": {
+          "description": "You have @actor_0@ host a 30 minute interview with a sleep specialist. She tries to share some of her ideas, but the expert keeps making obvious plugs for his book. Honestly, it's pretty boring, and both @actor_0@ and the fans are disappointed.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Run a 7 day sleep naked challenge for fans",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "C=7"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_C_YA",
+            "text": "@actor_0@ is right! I'm so full of energy today."
+          },
+          {
+            "poster": "M_HC_YA",
+            "text": "who knew sleeping naked would boost my confidence so much?"
+          },
+          {
+            "poster": "F_C_T",
+            "text": "im never wearing pajamas again!!!"
+          }
+        ],
+        "result": {
+          "description": "You have @actor_0@ launch an online challenge for fans to join her in a 7 day sleep naked challenge. Framed as a challenge, many fans buy in and want to participate. Overall, you see a significant uptick in positive interactions from fans, as well as many new fans.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_vengeful_ex",
+    "title": "",
+    "description": "It seems [actor_0:full]'s numerous romantic engagements are catching up with her. A recently spurned ex-lover is unable to get over their break up. He texted her a compromising photo of their time together  and is threatening to post it online unless she agrees to resume their relationship.\n\n[actor_0] is furious at the blackmail attempt but also very concerned about how refusing him could impact her career.\n\nShe's come to you asking for help. Will you help her?",
+    "image": "ee_vengeful_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Amorous"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Tell her to try and make up",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "scandalPoints",
+            "formula": "4"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-70"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_C_YA",
+            "text": "omg this is insane!!"
+          },
+          {
+            "poster": "M_HC_A",
+            "text": "I can't believe someone would do something like this to poor @actor_0@!"
+          },
+          {
+            "poster": "F_C_T",
+            "text": "i'm so sorry @actor_0@! stay strong!"
+          },
+          {
+            "poster": "M_HC_YA",
+            "text": "If I ever meet that guy, he's dead."
+          }
+        ],
+        "result": {
+          "description": "[actor_0:full] follows your advice and tries to settle things with her ex-lover. But he continues to insist that they belong together forever. The more she resists, the angrier he gets. Finally she can't take any more. She calls him a \"sick monster\" and storms out. He then makes good on his threat and posts the picture online. The scandal breaks, and [actor_0] can't bear to show her face in public.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Release the name of the blackmailer to the fans",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "+ 2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_YA",
+            "text": "Is he finally gone? I heard he had to move."
+          },
+          {
+            "poster": "F_C_YA",
+            "text": "good riddance if you ask me!"
+          },
+          {
+            "poster": "M_C_A",
+            "text": "The world is better off without people like him in it"
+          }
+        ],
+        "result": {
+          "description": "You release the name of the blackmailer to the fans via social media, calling him out for his abusive actions. Thousands of engraged fans take it upon themselves to exact justice. The attacks are so overwhelming that he can no longer leave his home and is eventually forced to move to another city.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Offer him [yen]20000 to not post the picture",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "-20000"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "+ 2"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "He agrees to not post the photo in exchange for money. Still, you feel uncomfortable knowing that he may show up again one day demanding more money.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "This is her problem",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "- 3"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-50"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "Your refusal to help leaves [actor_0:full] feeling abandoned. However, nothing appears online after a few days, so she must have figured something out.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "This is her problem",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "- 3"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-80"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "C=-4"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "C=-4"
+          },
+          {
+            "target": "resource",
+            "parameter": "scandalPoints",
+            "formula": "4"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_C_YA",
+            "text": "is this real life? what is happening with [groupname] lately?"
+          },
+          {
+            "poster": "M_C_YA",
+            "text": "@actor_0@ isn't who I thought she was"
+          },
+          {
+            "poster": "F_HC_A",
+            "text": "What a horrible thing to do to someone. I feel so bad for @actor_0@!"
+          },
+          {
+            "poster": "M_HC_A",
+            "text": "Yeah, nobody deserves to have their private life dragged out online like this."
+          }
+        ],
+        "result": {
+          "description": "Your refusal to help leaves [actor_0:full] feeling abandoned. Furthermore, whatever she tried apparently didn't work, because the picture surfaced online a few days later causing significant damage to [actor_0]'s image and [groupname] as a whole.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_stalker",
+    "title": "",
+    "description": "Yesterday, [actor_0:full] posted a panicked video of herself explaining to fans that a stalker was trying to take upskirt photos of her on the train.\n\nThis isn't the first time she's made dramatic claims about supposed stalkers. And while you doubt that she's outright lying, it's possible the situation is not exactly as she described it.\n\nRegardless, she's created a big enough stink that fans are demanding to know how the agency is going to protect [actor_0] and the other members of [groupname].\n\nHow do you want to handle this?",
+    "image": "ee_stalker_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Paranoid"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Ask the railway to perform an investigation",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "+ 2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_C_T",
+            "text": "stay safe [actor_0:firstname]!"
+          },
+          {
+            "poster": "M_C_YA",
+            "text": "I'm sure it's only a matter of time until they find this guy"
+          }
+        ],
+        "result": {
+          "description": "The railway administration checks all the cameras, but with the crowding on the train, it's hard to say whether anything suspicious occurred. Still, [actor_0:full] appreciates the effort and posts another video describing in elaborate terms how she's working with \"investigators\" to track down her supposed assailant.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Offer to give the girls pepper spray",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-30"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "C=-2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_T",
+            "text": "wanna know how to spell CRAZY? @actor_0@, that's how."
+          },
+          {
+            "poster": "F_C_YA",
+            "text": "i can't believe she sprayed that poor guy!"
+          },
+          {
+            "poster": "F_HC_A",
+            "text": "watch our if you're riding the 5 train tonight. you might get attacked by [actor_0]!"
+          }
+        ],
+        "result": {
+          "description": "You equip all the girls with pepper spray for self defense. The very next day, there's an incident with [actor_0:full] blasting a stranger with pepper spray. Unfortunately, she was wrong. He wasn't even holding a phone; it was an MP3 player. Thankfully, she wasn't very good at aiming, mostly hitting his clothes. Now some fans are referring to her as \"crazy\".",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Make @actor_0@ recant her story",
+        "tooltip": "",
+        "effects": [],
+        "SNS": [
+          {
+            "poster": "M_C_YA",
+            "text": "whatever, ima still eat there"
+          },
+          {
+            "poster": "F_C_YA",
+            "text": "Yeah, I eat there 3 times a week, and I've never gotten sick, so I think she's wrong."
+          }
+        ],
+        "result": {
+          "description": "[actor_0:full] does as she's told and posts a new video apologizing to the fans for her exaggeration. However, then she goes off script and shares her suspicions about unsanitary food preparation at a local restaurant. To your relief, fans don't seem to be buying it, and the restaurant doesn't appear to care either.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Ignore it",
+        "tooltip": "",
+        "effects": [],
+        "SNS": [],
+        "result": {
+          "description": "You don't have time for [actor_0:full]'s drama. By the end of the week, nothing seems to have come of it. You count your blessings and move on.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Ignore it",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "-120000"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You don't have time for [actor_0:full]'s drama. Unfortunately, there are a lot of bored fans out there who do.  She listens to their advice, and the next time she suspects someone is trying to take an upskirt photo, she grabs the phone and smashes it under foot. The man files a police report and you end up having to pay [yen]120000 to replace his phone.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_milktray",
+    "title": "",
+    "description": "While working with a foreign ad producer, [actor_0:full] had a bit of a misunderstanding. During the ad shoot, the costume design girl approached her and began to unbutton her shirt. [actor_0] assumed it was time to change outfits. But to her surprise, the assistant proceeded to remove her bra and then pose her holding a tray under her nude breasts.\n\nWhen they began taking photos, [actor_0] tried to ask what was going on. The assistant assured her everything was fine, and that she was doing very well. Thinking it was perhaps a joke, and unsure what else to do, she went along with it, despite her embarrassment.\n\nToday, they reached out to her and want to use the topless photos as part of a promotion for a new cafe that features topless waitresses. They're offerring [yen]300000 beyond what they already paid for the fully clothed photos.\n\nShe's hesitantly come to you asking for advice for how to respond.",
+    "image": "ee_tray_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Steadfast"
+          },
+          {
+            "parameter": "age",
+            "formula": "> 16"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Accept the payment",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "300000"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-20"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "M=8"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "F=-5"
+          },
+          {
+            "target": "resource",
+            "parameter": "scandalPoints",
+            "formula": "1"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_T",
+            "text": "Woah, @actor_0@ is topless in these photos!!!"
+          },
+          {
+            "poster": "F_C_YA",
+            "text": "Ugh. I hate it."
+          },
+          {
+            "poster": "M_C_T",
+            "text": "I'm suddenly very thirsty for milk XD"
+          }
+        ],
+        "result": {
+          "description": "It's risky and might alienate some fans, but others will love it. And the extra money doesn't hurt either. You have her respond and accept the offer to feature her topless photos as the center piece for their new marketing campaign. [actor_0:full] feels nervous, but she trusts your judgement.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Ask to have her face cropped out",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "150000"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "The agency agrees, but they're only willing to pay half. Still it's a considerable sum of money, and [actor_0:full]'s reputation should be fairly safe.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Refuse",
+        "tooltip": "",
+        "effects": [],
+        "SNS": [],
+        "result": {
+          "description": "The reputation of your girls is far more important than a little cash. You reach out to the agency and insist that you never agreed to those photos. You make it clear they are not to be used under any terms. The agency replies that it was all a big misunderstanding and agrees they'll find another model.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_gamer",
+    "title": "",
+    "description": "[actor_0:full] regularly streams while gaming as a way to engage with her fans. Last week, on a whim, she fired up her stream while wearing a bikini. Her viewership for the day was nearly double.\n\nShe's tried it twice more since then, and both times her viewership has increased significantly. She is considering making bikini gaming a regular part of her stream, and she has some ideas for how to boost numbers further with more revealing swimsuits.\n\nShe's come to discuss it with you, as she doesn't want to cross any lines that would negatively impact her career in [groupname]. However she handles this will certainly affect how she's perceived by her fans going forward.\n\nHow far will you let her go?",
+    "image": "ee_gamer_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Underdog"
+          },
+          {
+            "parameter": "fans",
+            "formula": "> 500"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Skimpy bikinis everyday",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "M=10"
+          },
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "200000"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param sexy",
+            "formula": "+5"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param cute",
+            "formula": "-5"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_T",
+            "text": "[actor_0] is my queen!"
+          },
+          {
+            "poster": "F_HC_T",
+            "text": "Where can I buy that bikini she was wearing on stream today?"
+          },
+          {
+            "poster": "M_HC_YA",
+            "text": "Yeah! I want to buy one for my girlfriend. <3"
+          }
+        ],
+        "result": {
+          "description": "You encourage [actor_0] to generate as much attention as possible. In your book, there's no such thing as bad publicity.\n\nShe takes advantage of the opportunity, wearing increasingly revealing micro bikinis and sling bikinis, which drives her fans wild.\n\nWithin a short time, she has an army of adoring fans ready to attend all her shows and buy anything she endorses.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Skimpy bikinis everyday",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-20"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "M=10"
+          },
+          {
+            "target": "resource",
+            "parameter": "scandalPoints",
+            "formula": "1"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param sexy",
+            "formula": "+5"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param cute",
+            "formula": "-5"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_C_T",
+            "text": "The stream to end all streams!"
+          },
+          {
+            "poster": "F_C_YA",
+            "text": "I could have told you dancing in that was a dangerous proposition!"
+          },
+          {
+            "poster": "M_HC_T",
+            "text": "Nooooo, [actor_0] is banned?! Can she move to another platform?"
+          }
+        ],
+        "result": {
+          "description": "You encourage [actor_0] to generate as much attention as possible. In your book, there's no such thing as bad publicity.\n\nShe takes advantage of the opportunity, wearing increasingly revealing micro bikinis and sling bikinis, which drives her fans wild.\n\nUnfortunately, things go sideways when her fans petition her to dance on stream. Eager for more attention, she agrees. But midway through dancing, the insubstantial bikini fabric can't keep up with her energy, and her breasts slip free. In a panic, she tries to cover herself with one arm while turning off the stream. A day later, she's banned from the platform.\n\nHer sponsors are extremely unhappy with the lost revenue implications.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Tasteful swimwear once a week",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "M=5"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param sexy",
+            "formula": "2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_T",
+            "text": "who's ready for bikini friday?!"
+          },
+          {
+            "poster": "M_C_T",
+            "text": "yaaas, ive been waiting all week for this"
+          },
+          {
+            "poster": "M_HC_YA",
+            "text": "[actor_0] is the best!"
+          }
+        ],
+        "result": {
+          "description": "With your permission, she makes Bikini Fridays a regular part of her streaming schedule.  You caution her not to go overboard on her outfits though.\n\nHer fans love it, and she sees big viewership numbers every Friday. She's thrilled to see such great success from her plan.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Fully clothed from now on",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "M=-3"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param cute",
+            "formula": "+2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param sexy",
+            "formula": "-2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_YA",
+            "text": "[actor_0] should have the freedom to be herself!"
+          },
+          {
+            "poster": "M_C_T",
+            "text": "yeah, her gaming time is her own time"
+          },
+          {
+            "poster": "M_HC_T",
+            "text": "RIP [actor_0]'s bikini. You were my only reason to live. </3"
+          }
+        ],
+        "result": {
+          "description": "You instruct her to stop this nonsense. Viewership numbers aren't worth tarnishing her image. She agrees and tones it down.\n\nSome of her fans are understandably disappointed and are calling your actions \"heavy handed\". But you're confident you made the right call.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_practical_joke",
+    "title": "",
+    "description": "Knowing [actor_0:full]'s tendancy toward anxiety, one of the boys at school decided to play a practical joke on her. He brought a container from the chemistry room into the gym and  spilled it on her, pretending it was an accident.\n\nAs expected, [actor_0] freaked out, assuming it was something dangerous. But to everyone's surprise, she immediately stripped out of her clothes before running naked to the locker room showers.\n\nAs a result, [actor_0] notified you that she's planning to drop out of school and focus full time on her idol career. While you can see the upside of having her focus entirely on [groupname], failing to complete her education could hurt her in other areas.\n\nWhat will you do?",
+    "image": "ee_practical_joke.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Hypochondriac"
+          },
+          {
+            "parameter": "age",
+            "formula": "< 20"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Dropping out is for the best",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param smart",
+            "formula": "-10"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param dance",
+            "formula": "12"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param vocal",
+            "formula": "8"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "Less time in school means more time to work with her coaches. You tell her you have no problem with her dropping out, and so she does just that.\n\nShe probably won't be a great choice for talk shows in the future, but her ability to perform will more than make up for it.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Tell her to transfer schools",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param dance",
+            "formula": "10"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param vocal",
+            "formula": "6"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You encourage her to move to a different school. There are plenty of other options out there. She ends up enrolling for online classes which actually works out better for her in the long run. She's able to complete her work faster and has more time to devote to practice.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Request disciplinary action against her attacker",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "+ 2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-40"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You contact her school and have a frank discussion with the education staff about the levels of supervision at the school. You subtly suggest that [actor_0]'s popularity could have a very real consequence on the desireability of the school if she were to make her story public. They take the hint, and the next day the boy in question is removed from the school. Still, [actor_0] feels considerable stress returning to the school environment after such an embarrassing display.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_butt",
+    "title": "",
+    "description": "It's no secret that [actor_0:full] has a tendency to rub people the wrong way from time to time. Her abrasive personality can often leave her peers feeling frustrated.\n\nRecently [groupname] ran an online poll where fans could submit photos to be used on a future album cover. Apparently one of the group members took a candid photo of [actor_0]'s butt and submitted it to the poll.\n\nOn the upside, her face isn't in the photo, and there's no indication that anyone realized it's her. And her butt did get quite a lot of votes. That said, [actor_0] was understandably upset when she found out.\n\nNone of the other girls will admit to posting the picture, though it's clear from the background that it was taken in the studio changing room.\n\nHow will you handle this?",
+    "image": "ee_butt_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Annoying"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Laugh it off",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "- 2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-30"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You call the girls in to address this highly amusing situation. Clearly, you're not going to use the picture for an album cover, but you admit it was a pretty funny joke. You catch some of the girls smirking, though [actor_0] looks hurt. But in your mind, she brought this on herself with her own behavior.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Discipline the entire group",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-20"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "+ 1"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You bring all the girls in and tell them in no uncertain terms that this kind of behavior is highly inappropriate. You cancel the dinner you had planned for them later in the week and schedule an extra round of their least favorite exercises instead.\n\nA group of gloomy faces leave your office, and not a few dirty looks are cast in [actor_0]'s direction.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Spend [yen]50000 on a life coach for [actor_0]",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "-50000"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "C=2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param cool",
+            "formula": "5"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You hire a life coach to spend time helping [actor_0:full] develop  more emotional intelligence.\n\nOver time, the effect is noticeable and you can see a marked improvement in [actor_0]'s interactions with the other girls. As an added bonus, she's also seeing more popularity among the fans.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_pantsed",
+    "title": "",
+    "description": "[actor_0:full] recently participated in a race for her favorite charity. Some harmless banter with an idol from a rival group took a more serious turn when the girl got angry and attempted to yank down [actor_0]'s pants in retribution. She reacted quickly and narrowly managed to avoid exposing herself in front of a crowd of onlookers.\n\nUnfortunately, the incident cost her the race. And though the other girl was immediately disqualified, much of the fan base is still in an uproar.\n\nWhat should be done?",
+    "image": "ee_pantsed.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Loyal"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Demand an official apology",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "+ 2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_YA",
+            "text": "Glad to see things getting sorted out here"
+          },
+          {
+            "poster": "M_HC_YA",
+            "text": "Yeah, that girl was way outta line"
+          },
+          {
+            "poster": "F_C_T",
+            "text": "for real!!!"
+          }
+        ],
+        "result": {
+          "description": "You contact the other idol's manager and insist that she make a public apology. Her manager agrees, and a short time later she releases a statement communicating her remorse. She apologizes for disrupting the charity event and especially for any suffering she caused [actor_0:full].",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Donate [yen]100000 to the charity to cheer up [actor_0]",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "+ 4"
+          },
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "-100000"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_C_YA",
+            "text": "sorry you didn't win [actor_0]!"
+          },
+          {
+            "poster": "M_C_T",
+            "text": "You'll always be a winner in my heart"
+          }
+        ],
+        "result": {
+          "description": "[actor_0:full] is thrilled that you want to support her favorite charity. But she insists that you don't have to donate money on her account unless you really want to. You assure her that you do, and you cherish the look of pure joy on her face.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Tell [actor_0] not to start any more fights",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "- 1"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "[actor_0:full] is hurt that you're placing the blame on her. From her perscpective, some friendly banter is all part of the competition. Never the less, she agrees to be more careful in the future.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Ignore it",
+        "tooltip": "",
+        "effects": [],
+        "SNS": [
+          {
+            "poster": "F_C_YA",
+            "text": "Can you believe the nerve of that girl?"
+          },
+          {
+            "poster": "M_HC_T",
+            "text": "I wish I could have seen it in person... for science of course"
+          }
+        ],
+        "result": {
+          "description": "You decide this isn't worth your time. [actor_0:full] and the fans can sort out their own feelings.\n\nIt will likely be completely forgotten in a few days.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_lingerie",
+    "title": "",
+    "description": "[actor_0:full] is well known for keeping up with the latest trends and is especially adored by younger fans. A popular clothing brand has taken notice and is offering [yen]800000 for her to model their newest line of lingerie.\n\nFor [actor_0], this is a dream come true, but there is a catch. Recently this brand has been criticized for promoting an ideal body type. [actor_0] of course exemplifies this image. If she agrees to partner with them, fans may feel that she's tacitly endorsing the brand's stance.\n\nWhat is your decision?",
+    "image": "ee_lingerie_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Trendy"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Accept the offer as is",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "800000"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "Y=4"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "F=-2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "+ 2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_T",
+            "text": "[actor_0] looking so classy!"
+          },
+          {
+            "poster": "F_C_T",
+            "text": "ya i want to buy the red one"
+          },
+          {
+            "poster": "F_C_YA",
+            "text": "I can't believe anyone would buy something from a company with such a limited viewpoint"
+          }
+        ],
+        "result": {
+          "description": "You decide the offer is too good to pass up. [actor_0:full] is thrilled to be featured as the centerpiece of the new ad campaign. As anticipated, she and the other models are all of a similar body type: tall and slim.\n\nOn the one hand, the popular exposure is generating a lot of interest in [actor_0]. But there is also some backlash for caving to the brand's uninclusive body image message.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Accept with the condition that different body types be represented",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "800000"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "Y=5"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "F=4"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "+ 2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_C_YA",
+            "text": "Way to stand up for a healthy view of women, [actor_0]!"
+          },
+          {
+            "poster": "M_C_T",
+            "text": "i just want a healthy view of [actor_0] doing more of these ads o__o"
+          }
+        ],
+        "result": {
+          "description": "You offer to accept the partnership under the condition that [actor_0:full] is joined by other models of different body types.\n\nAfter some deliberation, the brand sponsors agree that a more inclusive brand image is in the best interest of everyone. [actor_0] is excited to be included in a diverse group of models for the ad campaign. The response from fans is, likewise, very positive.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Accept with the condition that different body types be represented",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "- 1"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "F=4"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_T",
+            "text": "i'm glad [actor_0] didn't cave to corporate idiocy"
+          },
+          {
+            "poster": "F_C_T",
+            "text": "She would have been so perfect for the seasonal collection tho :("
+          }
+        ],
+        "result": {
+          "description": "You offer to accept the partnership under the condition that [actor_0:full] is joined by other models of different body types.\n\nAfter some deliberation, the brand sponsors reject your offer stating they'll find another model. [actor_0] is understandably disappointed with your negotiations.\n\nIt's a small consolation that many of the female fans believe [actor_0]'s stance to be admirable.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Refuse the offer",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "- 3"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You reject the offer outright. [actor_0:full] is frustrated with your lack of engagement and tells you that you're limiting her career with this decision.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_nude_model",
+    "title": "",
+    "description": "[actor_0:full], always one to push boundaries, signed up to be a nude model for the fine arts class at her university. Somehow this information was leaked.\n\nThe university, to their surprise, had over ten times the normal number of students enroll in the class. Unfortunately, many of the students that enrolled are not even art students, and many of the art students themselves were unable to get a place in the class.\n\nIt's unlikely that the act of modeling itself would cause much of a stir. The univeristy has strict security to protect the privacy of their models and students. However, the effect [actor_0]'s popularity is having on the art students could potentially affect her public opinion as well as that of [groupname] if it's not handled well.\n\nWill you get involved?",
+    "image": "ee_nude_model_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Tenacious"
+          },
+          {
+            "parameter": "age",
+            "formula": "> 16"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "This is the university's problem",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "M=3"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "YA=-3"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_C_YA",
+            "text": "Can't believe I got bumped from my art class because of this stupid idol drama!"
+          },
+          {
+            "poster": "F_C_YA",
+            "text": "tell me about it! wish she'd never signed up!"
+          },
+          {
+            "poster": "M_HC_YA",
+            "text": "Well, I got in, and I am READY for some boobies! I can't even draw! XD"
+          }
+        ],
+        "result": {
+          "description": "You refuse to get involved with the issue. The university ends up opening an additional class for some of the artists who weren't able to register for the first one. However, they do ask [actor_0:full] not to register to model again next quarter to avoid further issues.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Make her withdraw",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "influence",
+            "formula": "- 2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "M=-2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_YA",
+            "text": "@actor_0@! Nooooo!"
+          },
+          {
+            "poster": "M_C_YA",
+            "text": "can't believe they made her withdraw. probs get some wrinkly old man now..."
+          }
+        ],
+        "result": {
+          "description": "Aside from the stir it's causing at the university, you feel this could also negatively affect [actor_0:full]'s public image. You insist that she withdraw from the course. She's unhappy about it but reluctantly complies with your request. Of course her fans that had registered for the course are disappointed.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Make a [yen]500000 donation to the art department",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "-500000"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "M=8"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_C_YA",
+            "text": "thank god they opened more slots for natural studies!"
+          },
+          {
+            "poster": "M_C_YA",
+            "text": "For real. I was worried I'd miss graduation by a few credits."
+          },
+          {
+            "poster": "M_HC_YA",
+            "text": "i'm going to fail on purpose so i can see @actor_0@ naked again next semster!"
+          }
+        ],
+        "result": {
+          "description": "As a peace offering, you send [yen]500000 to the university art department. They graciously accept and hire some additional aides to support a larger number of students. The majority of the art students are relieved to be able to attend. All the extra exposure also has a powerful affect on [actor_0:full]'s male fan base.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_fancy_dress",
+    "title": "ee_fancy_dress",
+    "description": "[actor_0:full], attended a fashion gala last night together with several other girls from [groupname].\n\nMany other idols from other groups were present, along with various entertainers and celebrities. The party was an extravagant affair, and the girls had a fantastic time.\n\nHowever, later in the evening, [actor_0] ran into some trouble. An idol from another group found her boyfriend chatting with [actor_0], and accused her of trying to seduce him. [actor_0] assured her that wasn't the case, and excused herself.\n\nThis morning, the other idol posted a series of angry, profanity laden messages on social media accusing [actor_0] of being a home wrecker.\n\nHow should she respond?",
+    "image": "ee_fancy_dress_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Weak_vocal_chords"
+          },
+          {
+            "parameter": "age",
+            "formula": "> 16"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Issue an apology",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-40"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "YA=-2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_YA",
+            "text": "Do you think [actor_0] really tried to steal her boyfriend?"
+          },
+          {
+            "poster": "M_HC_YA",
+            "text": "no, she would never"
+          },
+          {
+            "poster": "F_C_YA",
+            "text": "idk, u never really kno, right??? hard to say what went down"
+          }
+        ],
+        "result": {
+          "description": "At your direction, [actor_0:full] posts an apology for the misunderstanding. Unfortunately, the other girl latches onto it as proof that [actor_0] was indeed trying to steal her boyfriend. Her attacks eventually become so vitriolic that [actor_0] has to block her entirely. On top of that, some of the fans seem to have bought the story as well. The whole situation leaves [actor_0] feeling stressed and drained.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Call out the toxic behavior",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "F=3"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "F=2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_YA",
+            "text": "dayum!"
+          },
+          {
+            "poster": "F_HC_YA",
+            "text": "Way to be, girl. You tell 'em!"
+          }
+        ],
+        "result": {
+          "description": "[actor_0:full] writes a scathing response asserting that it's not her job to babysit other people's relationships. If this girl is that threatened by a simple converation, than she should go ahead and break up with him.\n\nThere's an outpouring of support for [actor_0], and the other girl ends up deleting her posts.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Ignore it",
+        "tooltip": "",
+        "effects": [],
+        "SNS": [],
+        "result": {
+          "description": "You tell [actor_0:full] not to respond. She agreeds, and after a few days, the issue disappears.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Ignore it",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-20"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You tell [actor_0:full] not to respond. She agreeds, and maintains her silence. The other girl tries to use her silence as an admission of guilt, constantly calling her out. [actor_0] blocks her, but the rumors still seem to find their way back to her in social interactions.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_sell_panties",
+    "title": "",
+    "description": "You're shocked when [actor_0:full] reveals to you that she's been operating a side hustle where she sells her used panties to strangers online.\n\nShe only brought it up because a wealthy fan offered her [yen]1000000 if she'll include a provocative picture of herself with the panties. She's aware of the risk that he might release the picture online, but she's willing to split the money 50/50 with the studio if you'll let her do it.\n\n[actor_0] is excited by the idea of such easy money, and it would help the studio as well. But it could also cause a scandal if he released the picture.\n\nWhat is your decision?",
+    "image": "ee_sell_panties.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Jack_of_All_Trades"
+          },
+          {
+            "parameter": "age",
+            "formula": "> 15"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Let her do it",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "500000"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "+ 1"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You decide the money is worth the risk and give [actor_0:full] permission to send the panties with a picture. She's thrilled and gets busy taking the perfect picture right away.\n\nThe picture and panties go out, the money comes in, and that's the end of it. You count your blessings and move on.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Let her do it",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "500000"
+          },
+          {
+            "target": "resource",
+            "parameter": "scandalPoints",
+            "formula": "1"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "+ 1"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "C=-3"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "M=3"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_T",
+            "text": "whaaat is [actor_0] doing?"
+          },
+          {
+            "poster": "M_C_YA",
+            "text": "makin dat money, dat what she doin"
+          },
+          {
+            "poster": "F_C_YA",
+            "text": "Eww, there are better ways to make money"
+          }
+        ],
+        "result": {
+          "description": "You decide the money is worth the risk and give [actor_0:full] permission to send the panties with a picture. She's thrilled and gets busy taking the perfect picture right away.\n\nA day later, the fan posts the picture online, bragging about his purchase. There's an uproar among the fans, some of whom claim [actor_0] has tainted her good image.\n\n[actor_0] is unbothered by how she's perceived, especially since she's gained fans overall, but the damage to her reputation remains.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "She can sell panties without pictures",
+        "tooltip": "",
+        "effects": [],
+        "SNS": [],
+        "result": {
+          "description": "You tell [actor_0:full] that she can sell panties to whomever she likes, but she is not to include lewd pictures. She's disappointed but trusts your judgment.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "No more selling panties",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param smart",
+            "formula": "5"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "influence",
+            "formula": "- 1"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You tell [actor_0:full] that she needs to stop selling panties immediately. If she wants extra money, she should work at being the best idol she can be. At first she's angry that you've messed up her business. But the very next week she starts a new side business teaching classes online.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_love_hotel",
+    "title": "",
+    "description": "[actor_0] is know to have a habit of bragging online. Her fans are aware that she often takes \"creative liberties\" in her stories.\n\nRecently, she asserted that she had recently been to an expensive love hotel in the city. Most of her fans shrugged it off as another exaggeration. But then someone posted a picture from the same hotel that seemed to show a girl who looks a lot like [actor_0] standing in the background.\n\nNow there are fans speculating that she really was at the love hotel, and that it's because she's working a side job as an escort.\n\nWill you intervene?",
+    "image": "ee_hotel_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Arrogant"
+          },
+          {
+            "parameter": "age",
+            "formula": "> 16"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Claim the photo was altered",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "influence",
+            "formula": "+ 2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "YA=2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_C_YA",
+            "text": "Wait, so it was a fake all along?"
+          },
+          {
+            "poster": "F_HC_A",
+            "text": "of course it was a fake! [actor_0] is crazy, but she's not THAT crazy"
+          },
+          {
+            "poster": "M_HC_YA",
+            "text": "I really thought it was her! I guess you can never trust what you hear on the internet..."
+          }
+        ],
+        "result": {
+          "description": "You cross your fingers and insist that the photo is a fake. This triggers an army of internet detectives to begin analyzing the photo. To your incredible relief, a so called expert states that the photo is indeed a forgery.\n\n[actor_0] is amazed by your quick thinking and eternally grateful for getting her out of that mess.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Ask the hotel to verify she was never there",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "scandalPoints",
+            "formula": "1"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-20"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_C_YA",
+            "text": "i wonder if [actor_0] is really an escort"
+          },
+          {
+            "poster": "M_HC_A",
+            "text": "i can't believe [actor_0] would do such a thing!"
+          },
+          {
+            "poster": "F_C_A",
+            "text": "idk, she seems like the kind of person who might..."
+          }
+        ],
+        "result": {
+          "description": "You ask the hotel to clear up any confusion. However, they insist they have a strict policy of neither confirming nor denying the identities of any visitors. They regretfully inform you that they cannot take any actions which might negatively impact the future business of the hotel.\n\nWithout their support, the rumors swirl, and [actor_0]s reputation is damaged.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "This is her problem",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "A=-2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_YA",
+            "text": "Enough is enough. You people are better than this!"
+          },
+          {
+            "poster": "M_C_T",
+            "text": "she's right, i wouldn't want people spreading vicious rumors about me"
+          },
+          {
+            "poster": "F_C_A",
+            "text": "Yeah, [actor_0] still deserves your respect regardless of your own opinions."
+          }
+        ],
+        "result": {
+          "description": "Internet rumors don't concern you. In your mind, sometimes people have to learn from their own mistakes.\n\n[actor_0] struggles to contain the backlash. She even goes so far as to admitting that much of what she says is laced with fabrications and half truths. Miraculously, it appears to work. Some of her more kind hearted fans rally around her, and her critics ease off.\n\nHer reputation isn't entirely unaffected, but she seems to have avoided any long lasting repercussions.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_the_hug",
+    "title": "",
+    "description": "[actor_0:full] is known for being well liked by many of the younger fans. In fact, during promotion events, she often gives hugs to the girls who adore her.\n\nShe was shocked to learn that, [fan_name], a young woman she hugged during a recent event is claiming [actor_0] assaulted her. There is video footage of [actor_0] hugging a whole group of fans in turn, most of whom can be seen hugging her back. [fan_name] was hugged from behind and seemed caught off guard.\n\n[actor_0]'s only concern was making sure no one felt left out. In this case, that has sadly backfired.\n\nWhat should be done?",
+    "image": "ee_hug_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Maternal"
+          },
+          {
+            "parameter": "age",
+            "formula": "> 16"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [
+      {
+        "target": "meta",
+        "parameter": "set_variable",
+        "formula": "fan_name = female_name"
+      }
+    ],
+    "options": [
+      {
+        "text": "Issue an apology",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param smart",
+            "formula": "5"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "T=3"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_T",
+            "text": "we luv u [actor_0]!"
+          },
+          {
+            "poster": "F_C_T",
+            "text": "Hug you, then apologize to you. Imagine!"
+          },
+          {
+            "poster": "F_HC_YA",
+            "text": "Just goes to show what a kind heart [actor_0] has."
+          }
+        ],
+        "result": {
+          "description": "At your direction, [actor_0] sends [fan_name] a written apology, explaining the misunderstanding, assuring the girl of her good intent, and asking for forgiveness.\n\nHappily, [fan_name] accepts her apology and agrees not to press any charges. [actor_0] is relieved, but still has trouble believing something so small could get blown out of proportion so badly. Still, she feels a little wiser for the experience.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Defend [actor_0]",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "F=4"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "+ 1"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_T",
+            "text": "[actor_0] once gave me her bracelet, just because I said it was beautiful!"
+          },
+          {
+            "poster": "F_HC_YA",
+            "text": "She encouraged me to make new friends when I moved to a new school."
+          },
+          {
+            "poster": "F_C_T",
+            "text": "[actor_0] is the reason i want to be an idol someday! i want to be just like her"
+          }
+        ],
+        "result": {
+          "description": "You release a statement that [actor_0] acted entirely appropriately within the context of the event. You point out that she's well known for hugging her fans, and assert that nothing was done with ill intent.\n\nMany of [actor_0]'s fans also chime in recalling all the good experiences they've had meeting her. The tales of her kindness and warm hearted nature are so voluminous, that [fan_name]'s complaint is buried in an ocean of positive regard.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Only handshakes from now on",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "group",
+            "parameter": "add_fans",
+            "formula": "T=-2"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_T",
+            "text": "Wait, [actor_0] isn't allowed to give us hugs anymore?"
+          },
+          {
+            "poster": "F_C_T",
+            "text": "this is the dumbest thing i've ever heard"
+          },
+          {
+            "poster": "F_HC_YA",
+            "text": "[groupname]'s management really is clueless"
+          }
+        ],
+        "result": {
+          "description": "You tell [actor_0] that protecting herself from legal repercussions is more important than connecting with the fans. She's disappointed, but agrees to stop hugging her fans. Many of the fans are disappointed with this decision and think she's been treated too harshly.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_car_wash",
+    "title": "",
+    "description": "[actor_0] comes to you convinced that [groupname]'s next single isn't going to perform well on the charts. As a back up plan, she wants to host a car wash event to earn some extra money for the studio.\n\nYou're not sure that her concern is valid, as this plan is unlikely to earn a significant amount of money. But you can see how this might be a good way to generate more fans. In fact, if you were to sponsor the event, you could potentially bring in even more fans. Though it would come at a significant monetary cost.\n\nHow would you like her to proceed?",
+    "image": "ee_carwash_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Anxiety"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Sponsor with [yen]500000",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "-500000"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "20"
+          },
+          {
+            "target": "group",
+            "parameter": "add_fans",
+            "formula": "YA=8"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_C_T",
+            "text": "I hope [groupname] does a car wash every year!"
+          },
+          {
+            "poster": "M_HC_YA",
+            "text": "next year, do a wet t-shirt contest!! <3"
+          },
+          {
+            "poster": "F_HC_YA",
+            "text": "i heard [actor_0:full] planned the whole thing. she should be a party planner!"
+          }
+        ],
+        "result": {
+          "description": "You decide to make it a full blown free event with food and games in addition to the car wash. In truth, not many cars actually get washed, but the fans don't care. They've having a great time eating, drinking, playing games, and watching the girls playing in the water.\n\nAt the end of the event, [actor_0] is tired, but happy. Maybe it was never about earning extra money. She just needed something to take her mind off the upcoming single.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Try it her way",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param physicalStamina",
+            "formula": "-20"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "influence",
+            "formula": "+ 1"
+          },
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "120000"
+          },
+          {
+            "target": "group",
+            "parameter": "add_fans",
+            "formula": "M=4"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_YA",
+            "text": "Seeing the girls of [groupname] get all wet and soapy was like a dream come true"
+          },
+          {
+            "poster": "M_C_T",
+            "text": "i went thru the car wash 7 times! i'm broke, but it was so worth it!"
+          }
+        ],
+        "result": {
+          "description": "[actor_0] rallies the girls of [groupname] and gets a local super market to offer use of their parking lot.\n\nTo your surprise, hundreds of fans show up and are willing to pay for the girls to wash their cars. It turns out to be a lot more work than any of them expected, but at the end of the day they've earned a respectable income and gained some new fans.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "This is a waste of time",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "influence",
+            "formula": "- 2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-30"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You tell [actor_0] that it's a foolish idea. She tries to present you with a business plan that she's written up, but you insist it would never work. She's crushed and leaves looking for something else to take her mind off her worries.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_swim_pull",
+    "title": "",
+    "description": "[actor_0:full] has a reputation for being the group jokester, and typically her silliness goes over well.\n\nRecently she's been playing practical jokes on the other girls, and at the beach last week she gave [actor_1:full] a surprise camel toe in front of everyone. [actor_1] laughed it off, but later she asked [actor_0] to exclude her from future jokes, especially in public.\n\n[actor_0] feels like getting  [actor_1] all worked up is what makes the joke so funny. But [actor_1] doesn't see it that way. She's concerned about her image, and being the butt of these jokes feels frustrating.\n\nHow will you handle this dispute?",
+    "image": "ee_swim_pull_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Meme_queen"
+          }
+        ]
+      },
+      {
+        "name": "@actor_1@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "variable",
+            "formula": "!ee_lewd"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "It's just some harmless fun",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param funny",
+            "formula": "3"
+          },
+          {
+            "target": "@actor_1@",
+            "parameter": "param mentalStamina",
+            "formula": "-40"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "A=-3"
+          },
+          {
+            "target": "@actor_1@",
+            "parameter": "friendship",
+            "formula": "- 1"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_C_YA",
+            "text": "haha, what kind of wild prank will [actor_0] come up with next?"
+          },
+          {
+            "poster": "F_HC_A",
+            "text": "I don't like it. [actor_1:full] looks so uncomfortable."
+          },
+          {
+            "poster": "F_C_T",
+            "text": "yeah, count me out. jokes shouldn't be at someone else's expense :("
+          }
+        ],
+        "result": {
+          "description": "You tell [actor_1] to toughen up. [actor_0] excitedly begins planning her next joke, while [actor_1] seems visibly stressed.\n\nThe next week, [actor_0] pulls another public prank at [actor_1]'s expense. Her panicked reaction does cause a lot of laughs, but it's also clear to some that she's not having fun.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "No more targetting [actor_1]",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_1@",
+            "parameter": "param dance",
+            "formula": "6"
+          },
+          {
+            "target": "@actor_1@",
+            "parameter": "friendship",
+            "formula": "+ 1"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "[actor_0] grumbles a bit about how comedy is supposed to be edgy. But eventually she agrees to leave [actor_1] out of her plans.\n\n[actor_1] is quite relieved. Without the constant threat of being duped, she's better able to focus on developing her skills, and you see a marked improvement in her abilities.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Let them sort it out",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param cool",
+            "formula": "4"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "The girls spend some time arguing, but eventually [actor_0] realizes that if she wants to stay friends with [actor_1], she'll have to treat her the way she wants to be treated. She apologizes and agrees not to embarrass [actor_1] in public again. To her surprise, this earns her higher respect from her peers.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Let them sort it out",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param physicalStamina",
+            "formula": "-20"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-20"
+          },
+          {
+            "target": "@actor_1@",
+            "parameter": "param physicalStamina",
+            "formula": "-20"
+          },
+          {
+            "target": "@actor_1@",
+            "parameter": "param mentalStamina",
+            "formula": "-20"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "The girls get into a big fight. There's yelling, crying, and a lot of hurt feelings. In the end, they agree to give each other some space. But the altercation has clearly drained them both.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_teacher",
+    "title": "",
+    "description": "It seems [actor_0:full]'s past has returned to haunt her. Years ago, [actor_0] started a romantic relationship with one of her teachers in exchange for a passing grade. After becoming an idol, she knew she'd need to keep this carefully hidden. The few of her friends that knew were all sworn to secrecy.\n\nBut in an unexpected turn of events, the teacher involved has become terminally ill. A friend warned [actor_0] that the teacher is writing a tell-all memoir about his life. She reached out to him, and he intends to include the story in his book.\n\nIf the story gets out, it would be a major scandal and could ruin [actor_0]'s career. What should be done?",
+    "image": "ee_teacher_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Shameless"
+          },
+          {
+            "parameter": "age",
+            "formula": "> 17"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Offer him [yen]1000000 to not publish the story",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "money",
+            "formula": "-1000000"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "influence",
+            "formula": "+ 3"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You call [actor_0]'s old teacher and offer him [yen]1000000 to protect [actor_0]'s privacy. While he has no use for money in his condition, he agrees to accept the payment and give it to his family. In exchange, he promises to completely omit the story from his book.\n\n[actor_0] is hugely relieved and very appreciative of your help. Though, part of you worries this isn't the last time you'll be paying for her indiscretions.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Threaten the book publisher with a lawsuit",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "influence",
+            "formula": "+ 1"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_C_A",
+            "text": "Anybody read this new book \"Sins of a Math Teacher\"?"
+          },
+          {
+            "poster": "F_C_YA",
+            "text": "Yeah! Pretty wiiiild stuff in there. Hard to believe that could happen in one of our own schools!"
+          },
+          {
+            "poster": "F_HC_A",
+            "text": "Didn't some of the members of [groupname] go there? I wonder if they knew that girl..."
+          }
+        ],
+        "result": {
+          "description": "You reach out to the publisher and state that the book will violate [actor_0]'s privacy. Though you don't spell it out specifically, you insinuate that a libel lawsuit would occur if they publish the book. The tactic works, and the agent agrees to use a fake name rather than referring to [actor_0] by name.\n\n[actor_0] doesn't love the idea of the story being out there at all, but she's very relieved to not have her name attached to it.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "No one will believe him",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-20"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You assure [actor_0] that no one is going to believe some crazy old man. She tries to keep her nerves under control, but it still affects her mental wellbeing knowing that the possibility is out there.\n\nIn the end, the man passes away from his illness before ever publishing the book. You and [actor_0] count your blessings and move on.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "No one will believe him",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "resource",
+            "parameter": "scandalPoints",
+            "formula": "1"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-50"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_YA",
+            "text": "I'm telling you, if anybody was gonna bang a teacher, it would be [actor_0]!"
+          },
+          {
+            "poster": "F_HC_T",
+            "text": "This is glorified fan fiction. That guy should go to jail for ruining her reputation."
+          },
+          {
+            "poster": "M_C_A",
+            "text": "if he really did it, then he should ALREADY be in jail"
+          },
+          {
+            "poster": "F_C_YA",
+            "text": "Not sure it would do much good. I heard he's in the hospital and won't last much longer."
+          }
+        ],
+        "result": {
+          "description": "You assure [actor_0] that no one is going to believe some crazy old man. A short while later, the book is published.\n\nUnfortunately, more than a few fans read a first edition copy and begin sharing the story online. While there isn't any proof that the story is factual, many of the fans are aware of [actor_0]'s personality, and it seems at least possible in their minds. The resulting speculation and social media arguments wear down both [actor_0]'s stamina and reputation.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_no_panties",
+    "title": "",
+    "description": "[actor_0] has been suspended from school for lewd behavior. Apparently, she decided not to wear panties and then flashed her history teacher. When asked about it, she said the look on the face of \"that stuffy old crone\" was priceless, and getting suspended was worth it.\n\nDespite the rather entertaining nature of the story, [actor_0] shouldn't get into a habit of behaving recklessly and thinking there won't ever be consequences. It might make sense to further discipline her, especially since she doens't seem to be taking her suspension very seriously.\n\nOn the other hand, if you leaked this story online, getting kicked out of school is often seen as \"cool\" and might increase her popularity with rebel type fans.\n\nWhat will you do?",
+    "image": "ee_nopanties_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Spoiled"
+          },
+          {
+            "parameter": "age",
+            "formula": "< 19"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Leak the story online",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "T=5"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param cool",
+            "formula": "+7"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_T",
+            "text": "i bet she got kicked out for dying her hair. that's such a stupid rule"
+          },
+          {
+            "poster": "M_HC_T",
+            "text": "[actor_0] is a master of cool!"
+          }
+        ],
+        "result": {
+          "description": "You anonymously leak the story to a few choice outlets, calling out [actor_0]'s suspension, but leaving the details vague. The news spreads like wildfire among the fanbase. There are countless social media posts gushing over how much of a rebel she is. It seems your plan has played out exactly as you intended.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Leak the story online",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "A=-8"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-40"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_C_A",
+            "text": "[actor_0] is warping our children's minds!"
+          },
+          {
+            "poster": "F_C_A",
+            "text": "My husand is on the school board. You'd better believe he's going to be hearing about this!"
+          },
+          {
+            "poster": "M_HC_T",
+            "text": "yall are crazy! no wonder the world is such a mess"
+          }
+        ],
+        "result": {
+          "description": "You anonymously leak the story to a few choice outlets, calling out [actor_0]'s suspension, but leaving the details vague. However, the results are not what you had hoped for. Many angry parents slam her as being irresponsible, immature, and a negative influence on their children. Exasperated, [actor_0] eventually has to disable comments on her social media accounts to stop the tirade.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Keep it quiet",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "+ 1"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You decide that the suspension is enough of a punishment. You let [actor_0] relax and enjoy her time off from school. At first, she's surprised that you're taking it easy on her. But then she settles into a smug satisfaction. She says that you seem to 'get' her, though you're unsure if that's a actually a good thing in this context.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Further discipline her",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "- 1"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param dance",
+            "formula": "+8"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You make it clear to [actor_0] that reckless behavior is not appropriate for members of [groupname]. Since she's suspended anyway, you have her spend the next two weeks doing constant dance exercises until she's very sore. She's angry at you, but on the up side, her dance ability improves quite a lot.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_nipslip",
+    "title": "",
+    "description": "During a recent promotion event, [actor_0:full] leaned forward a bit too far and her nipple slipped out of her bra. The fans went wild, and there was a flurry of cameras snapping. At first, she didn't realize what had happened. But one of the other girls made a motion at her, and she quickly adjusted her shirt in embarrassment.\n\nNow that the event is over, [actor_0] is in a panic. Her chronic worrying has gone up an octave as she dreads a possible scandal. Some of the other girls have tried to talk her down, but she can't stop obsessing over it. It's clear to you that she needs some help to get out of this unhealthy mental state.\n\nHow will you help her?",
+    "image": "ee_slip_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Worrier"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [
+      {
+        "target": "@actor_0@",
+        "parameter": "add_fans",
+        "formula": "HC=3"
+      }
+    ],
+    "options": [
+      {
+        "text": "Focus on work",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param vocal",
+            "formula": "+4"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_T",
+            "text": "I've seen [actor_0]'s nipple. My life is complete."
+          },
+          {
+            "poster": "F_C_T",
+            "text": "ur life sounds sad"
+          },
+          {
+            "poster": "M_C_YA",
+            "text": "No need to be mean. If you want attention, just let the girls out to play like [actor_0]! :D"
+          }
+        ],
+        "result": {
+          "description": "You fill [actor_0]'s schedule with extra training to help take her mind off the past. Happily, the more she focuses on the various exercises and duties, the more she forgets about her fears. There is some talk about her circulating online, but it's far less serious than what she had imagined. Additionally, her extra effort has improved her singing quite a bit.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Focus on work",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-50"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_YA",
+            "text": "Has anyone seen [actor_0] since after \"the incident\"?"
+          },
+          {
+            "poster": "F_HC_A",
+            "text": "She didn't do her usual stream this week. I hope she's ok. :((("
+          }
+        ],
+        "result": {
+          "description": "You fill [actor_0]'s schedule with extra training to help take her mind off the past. Sadly, she's unable to take her mind off her worries, and only ends up making countless mistakes, which further frustrates her. By the end of the week, the story has died down, but [actor_0] is more stressed than ever.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Take a vacation",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param physicalStamina",
+            "formula": "+20"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "+20"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "You give [actor_0] the week off and suggest that she spend some time in nature, clearing her head. She agrees and takes a trip with some friends to a national park for the week. When she returns, she's recovered from much of her stress. It seems the time she spend away in nature with her friends has helped a great deal, and she thanks you again for suggesting it.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Publicly joke about it",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param funny",
+            "formula": "+4"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_T",
+            "text": "who knew [actor_0] was so funny?!"
+          },
+          {
+            "poster": "F_C_YA",
+            "text": "She so right though! They're just breasts! All women have them."
+          },
+          {
+            "poster": "M_HC_YA",
+            "text": "But they aren't all as nice as [actor_0]'s! XD"
+          }
+        ],
+        "result": {
+          "description": "You push [actor_0] to face her fears and make a joke about the whole thing. She's anxious but goes ahead and posts \"surprise, women have breasts!\" on her social media account. To her astonishment, the fans love it. There's an outpouring of affection and appreciation for her sense of humor.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_roommate",
+    "title": "",
+    "description": "For the past few months, [actor_0:full] has been obsessing over a certain guy that she really likes, and she was working up the courage to ask him out. But last night she woke up to the sound of her roommate's poorly contained moaning from the bottom bunk. To her horror, the one getting it on with her roommate was the very guy she had hoped to ask out.\n\n[actor_0] couldn't help watching, but later pretended to be asleep when the two lovers got up to leave. She spend a tearful night in her room without sleeping. She managed to drag herself to the studio today, but she's an emotional wreck. She's convinced that the one perfect guy for her is now unavailable, and worse she'll have to see him with her roommate on a regular basis.\n\nShe's been posting vague, sad messages on her social media, and some of her fans are wondering if she's okay. [actor_1:full] has also expressed concern to you and is wondering if she can help.\n\nDo you want to intervene?",
+    "image": "ee_roommate_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Defeatist"
+          },
+          {
+            "parameter": "preference",
+            "formula": "!lesbian"
+          },
+          {
+            "parameter": "age",
+            "formula": "> 17"
+          }
+        ]
+      },
+      {
+        "name": "@actor_1@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "age",
+            "formula": "> 17"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Give her time",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param smart",
+            "formula": "+5"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_YA",
+            "text": "would you ever consider dating a girl? :3"
+          },
+          {
+            "poster": "F_HC_A",
+            "text": "The woman is in mourning! Give her some space!"
+          },
+          {
+            "poster": "F_HC_YA",
+            "text": "i'm just saying... i'm available <3"
+          }
+        ],
+        "result": {
+          "description": "You trust [actor_0] to sort out the issue on her own. You give her some time and space to process her emotions. Over the next few days, she shares a some of the less explicit details of the situation with her fans. In return, she receives a lot of encouragement and well wishes. Despite the difficulty of the experience, [actor_0] seems to be more confident in herself and her value afterward.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Tell her to stop posting",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param physicalStamina",
+            "formula": "-30"
+          }
+        ],
+        "SNS": [],
+        "result": {
+          "description": "Worried that she might damage her image, you forbid her from posting any more on social media about this issue. She looks at you for a long minute then shrugs her shoulders and walks away.\n\nShe drunk dials your number later that night, but seems to think she talking to the guy she was crushing on. After a a minute of listening to her slurred expletives, you ask her where she is. She tells you, and you drive over to the bar. After a bit of urging, she agrees to let you drive her home.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Encourage her to talk to [actor_1:full]",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "group",
+            "parameter": "add_fans",
+            "formula": "F=4"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "influence",
+            "formula": "+ 1"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_YA",
+            "text": "[actor_0] and [actor_1] are roomies now?! :o"
+          },
+          {
+            "poster": "F_HC_T",
+            "text": "what a beautiful storyyy~"
+          }
+        ],
+        "result": {
+          "description": "You encourage [actor_0] to spend some time talking with [actor_1:full]. After a bit of talking, [actor_1] shares that she's been wanting to get a bigger place anyway and suggests they move in together. [actor_0] agrees, and you spend your weekend helping them move furniture into their new apartment.\n\nA short time later, you're surprised to find that many fans are excited by the girls rooming together. The fan based is convinced that it's proof of how close knit [groupname] is.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_lollypop",
+    "title": "",
+    "description": "[actor_0:full] was hanging out with some college girls and heard them talking about something called \"The Lollypop Challenge\". Without knowing what it meant, she decided to impress her fans by saying that she participated in this challenge with her friends.\n\nWhat [actor_0] did not expect, was that it actually involves performing lollypop insertion and then giving that lollypop to someone else to eat. Nor did she expect that many of her young fans would look up the challenge and attempt it.\n\nNow, angry parents of many younger fans are criticizing [actor_0] for her irresponsible influence. Without parental approval, these younger fans may not be able to come to [groupname]'s upcoming shows at all.\n\nWhat should be done?",
+    "image": "ee_lolly_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Precocious"
+          },
+          {
+            "parameter": "age",
+            "formula": "< 19"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Suspend her from social media as punishment",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-20"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_C_A",
+            "text": "Glad to hear [groupname] is handling this with appropriate severity!"
+          },
+          {
+            "poster": "F_C_T",
+            "text": "i dont get why this is such a big deal"
+          },
+          {
+            "poster": "M_HC_YA",
+            "text": "Cause old people have no sense of humor apparently..."
+          }
+        ],
+        "result": {
+          "description": "You instruct [actor_0] to stay off her social media accounts for the next two weeks. You also release a statement apologizing to parents and assuring them that [actor_0]'s comments do not represent [groupname]. [actor_0] is frustrated, but acknowleges her mistake. And at least you seem to have sidestepped the wrath of the angry parents.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Defend her and claim ignorance",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "add_opinion",
+            "formula": "A=-3"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_C_A",
+            "text": "This is outrageous! [groupname] should just fire [actor_0]. What a disgrace!"
+          },
+          {
+            "poster": "M_C_A",
+            "text": "i agree completely. what a wildly irresponsible thing to be sharing"
+          },
+          {
+            "poster": "F_HC_YA",
+            "text": "Somebody's just mad they didn't get a lollypop... ;)"
+          }
+        ],
+        "result": {
+          "description": "You attempt to share the truth exactly as it happend, calling out the fact that [actor_0] really didn't know what she was talking about. While some are willing to forgive and forget, others maintain that she shouldn't be in a position of influence over young minds. Overall, [actor_0]'s reputation among older fans seems to have taken a hit.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Convince everyone she meant something less lewd",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "influence",
+            "formula": "+ 1"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_A",
+            "text": "I knew there had to be a reasonable explanation for all of this!"
+          },
+          {
+            "poster": "M_C_A",
+            "text": "glad we finally got to the bottom of it"
+          },
+          {
+            "poster": "F_HC_T",
+            "text": "wait... so i've been putting these lollypops in my p*ssy for nothing?"
+          }
+        ],
+        "result": {
+          "description": "You have [actor_0] post carefully crafted reply. She claims to be highly offended that anyone would assume she was making reference to something so lewd. Instead, she asserts that the challenge she was referring to was simply how many lollypops someone could fit in their mouth, and that she doesn't appreciate being judged.\n\nMiraculously, it works. Fans start to pile on, blaming the parents themselves for raising kids that would transform a harmless game into something lewd. [actor_0] greatly appreciates your assistance getting her out of this sticky situation...",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Convince everyone she meant something less lewd",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "A=-10"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-40"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_C_A",
+            "text": "No daughter of mine is going anywhere NEAR a [groupname] show!"
+          },
+          {
+            "poster": "F_HC_T",
+            "text": "dad, we were already doing the lollypop challenge at school anyway!"
+          },
+          {
+            "poster": "M_C_A",
+            "text": "Then you're not going to school either!"
+          },
+          {
+            "poster": "F_HC_T",
+            "text": "but who am i gonna give all these lollypops to? :("
+          }
+        ],
+        "result": {
+          "description": "You have [actor_0] post carefully crafted reply. She claims to be highly offended that anyone would assume she was making reference to something so lewd. Instead, she asserts that the challenge she was referring to was simply how many lollypops someone could fit in their mouth, and that she doesn't appreciate being judged.\n\nBut it backfires. No one believes her, and the angry parents call her bluff. Even worse, they take her attempted bluff as an outright evidence that she knew she was doing something wrong and is trying to cover it up. Even some of the fans who were on the fence don't like the idea of [actor_0] being an outright liar.",
+          "delay": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ee_bodypaint",
+    "title": "",
+    "description": "[actor_0:full] has the uncanny ability to be wildly successful at whatever she tries. Recently she's taken up the art of body painting. Unsurprisingly, she's become an expert very quickly.\n\nNow she's eager to share her work at a local art gallery. The event features local body painters doing live painting demostrations of their skill as they transform their own bodies into works of art. It also means that they begin with a \"blank canvas,\" in other words entirely nude. Needless to say, you have some reservations about allowing [actor_0] to perform in this capacity, though it would certainly excite her fans.\n\nYou've checked with the art studio and there are a few alternate options. She could wear nude colored panties and pasties as some of the other artists will be doing. Or you could insist that she find a model to paint instead of her own body. She'll probably be disappointed if you hold her back, but you also have to consider the repuatation of [groupname].\n\nWhat is your decision?",
+    "image": "ee_paint_event.png",
+    "random": true,
+    "actors": [
+      {
+        "name": "@actor_0@",
+        "type": "idol",
+        "conditions": [
+          {
+            "parameter": "trait",
+            "formula": "Prodigy"
+          },
+          {
+            "parameter": "age",
+            "formula": "> 17"
+          }
+        ]
+      }
+    ],
+    "conditions": [],
+    "effects": [],
+    "options": [
+      {
+        "text": "Let her start fully nude",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "+ 3"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param sexy",
+            "formula": "+5"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_YA",
+            "text": "are you kidding me? [actor_0] did live body painting and i missed it?!"
+          },
+          {
+            "poster": "F_HC_YA",
+            "text": "She's so talented. It seems like she's good at everything!"
+          }
+        ],
+        "result": {
+          "description": "You decide to fully commit to [actor_0]'s artistic endeavors, regardless of the outcome. She's one of a handful of artists who start fully nude and paint their entire body. The small crowd remains calm and quiet during the demonstration, but there's a powerful applause at the end of [actor_0]'s performance. It would seem no one in the artistic community takes issue with [actor_0]'s self expression. Afterward, she thanks you for believing in her and supporting her interest.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Require panties and pasties",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "+ 1"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param sexy",
+            "formula": "+3"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "F_HC_A",
+            "text": "I saw [actor_0]'s body painting exhibition last night! #blessed"
+          },
+          {
+            "poster": "M_HC_YA",
+            "text": "i'd rather watch her wash the paint off.... :o"
+          },
+          {
+            "poster": "F_HC_YA",
+            "text": "that makes two of us <3"
+          }
+        ],
+        "result": {
+          "description": "You grant [actor_0] permission to paint herself for the show, as long as she agrees to some very basic levels of modesty. She feels like panties and pasties take away from her artistic authenticity, but she eventually agrees to your terms.\n\nThe night of the show, a small crowd gathers to watch [actor_0]'s demonstration, and there's a powerful applause at the end of her performance. Afterward, she thanks you for believing in her and supporting her interest, even if you did cramp her style a little.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Insist she use a model instead",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "friendship",
+            "formula": "- 2"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "param mentalStamina",
+            "formula": "-30"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_A",
+            "text": "I feel so bad for [actor_0]. She's usually so calm and collected."
+          },
+          {
+            "poster": "F_HC_YA",
+            "text": "yeah, something was off last night :("
+          },
+          {
+            "poster": "F_HC_T",
+            "text": "At least she tried her best!"
+          }
+        ],
+        "result": {
+          "description": "[actor_0] reluctantly complies. The night of the show, she starts painting the model for her demonstration. But it becomes immediately apparent that she's not used to painting someone else. She struggles to correct a mistake, then another. Finally, in a fit of frustration, she strips out of her clothes in front of the crowd and begins painting herself instead.\n\nMurmurs ripple through the crowd at the unexpected turn of events. Starting with her toes and working upward, [actor_0] paints quickly to make up lost time. Unfortunately, she wasted too much paint on the model and runs out at waist level. She tries to play it off and even takes a small, half nude bow, together with her model. But the disappointment is plain on her face.\n\nDespite a strict \"no photos\" policy, some blurry pictures of [actor_0] appear online a few days later. Apparently her theatrics were enough for someone to break the rules. What should have been an exciting event has gone wrong in every possible way, and [actor_0] feels that you are mostly to blame.",
+          "delay": 0
+        }
+      },
+      {
+        "text": "Insist she use a model instead",
+        "tooltip": "",
+        "effects": [
+          {
+            "target": "@actor_0@",
+            "parameter": "param sexy",
+            "formula": "+7"
+          },
+          {
+            "target": "@actor_0@",
+            "parameter": "add_fans",
+            "formula": "HC=10"
+          }
+        ],
+        "SNS": [
+          {
+            "poster": "M_HC_T",
+            "text": "i hope [actor_0] paints all the girls' outfits from now on!"
+          },
+          {
+            "poster": "F_C_T",
+            "text": "keep your pants on, guy"
+          },
+          {
+            "poster": "M_HC_T",
+            "text": "[actor_0] didn't! :p"
+          }
+        ],
+        "result": {
+          "description": "[actor_0] reluctantly complies. The night of the show, she starts painting the model for her demonstration. But it becomes immediately apparent that she's not used to painting someone else. She struggles to correct a mistake, then another. Finally, in a fit of frustration, she strips out of her clothes in front of the crowd and begins painting herself instead.\n\nMurmurs ripple through the crowd at the unexpected turn of events, but [actor_0] regains her cool as she paints, and eventually she's applauded for her excellent work. Afterward, she and her half painted model exchange laughs at the whole predicament.\n\nDespite a strict \"no photos\" policy, some blurry pictures of [actor_0] appear online a few days later. Apparently her theatrics were enough for someone to break the rules. Fortunately for her, in the context of artistic representation, this only increases her appeal among fans.",
+          "delay": 0
+        }
+      }
+    ]
+  }
+]
